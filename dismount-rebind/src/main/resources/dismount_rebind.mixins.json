@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "com.dismountrebind.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "minVersion": "0.8.5",
+  "refmap": "dismount_rebind.refmap.json",
+  "client": [
+    "ClientPacketListenerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
